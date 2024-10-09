@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    background: url(images/bg-header-desktop.png);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.header .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+}
+.header p{
+    padding-bottom: 2rem;
+}
+.one .first img{
+    height: 450px;
+}
+.btn-one{
+    background-color:hsl(171, 66%, 44%) ;
+    border: 0;
+    padding: 15px;
+    color: white;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.btn-two{
+    background-color: hsl(228, 45%, 44%);
+    border: 0;
+    padding: 15px;
+    color: white;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.big{
+    text-align: center;
+}
+.semi-big{
+    text-align: center;
+}
+.one{
+   display: grid; 
+   grid-template-columns: repeat(2,1fr);
+}
+.biggest-bird{
+    margin-bottom: 4rem;
+}
+.biggest{
+    text-align: center;
+}
+.biggest-branch{
+    display: grid; 
+    grid-template-columns:repeat(3,1fr);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.section{
+    text-align: center;
+    display: grid; 
+    grid-template-columns: repeat(5,1fr);
+}
+.branching{
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.branching p{
+    padding-bottom: 3rem;
+}
+.section-2{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   background-color: #eee;
+   align-items: center;
+}
+.broad{
+    display: block;
+}
+.broad a{
+    padding-left: 30px;
+
+}
+.section-2 a{
+  text-decoration: none;
+  color: black;
+}
+.branching .btns{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2rem;
+}
+@media(max-width:768px){
+    .header{
+        background: url(images/bg-header-mobile.png);
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .header .btns{
+        display: block;
+    }
+    .btns li{
+        margin-bottom: 50px;
+    }
+    .one .first img{
+        height: 200px;
+        margin-left: 20px;
+    }
+    .second{
+        text-align: center;
+    }
+    .semi-big img{
+        height: 200px;
+    }
+    .section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .branch-1{
+        padding-bottom: 3rem;
+    }
+    .biggest-branch{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .branching .btns{
+        display: block;
+    }
+    .one{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+    }
+    .section-2{
+        display: block;
+        text-align: center;
+    }
+    .broad a{
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: block;
+    }
+    .basically{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+}

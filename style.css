@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 .header{
-    background: url(bg-header-desktop.png);
+    background: url('bg-header-desktop.png');
     margin: 0;
     padding: 0;
     text-align: center;
@@ -104,7 +104,7 @@ body{
 }
 @media(max-width:768px){
     .header{
-        background: url(bg-header-mobile.png);
+        background: url('bg-header-mobile.png');
         margin: 0;
         padding: 0;
         text-align: center;
